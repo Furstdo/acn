@@ -24,7 +24,7 @@ In case the environment doesn't show you need to refresh the list, see [vsc addi
 ## Links
 
 - [EV Research @ Caltech][def]  
-- [ACNportal on GitHub][ancportal]  
+- [ACNportal on GitHub][acnportal]  
 - [ACM-sim Documentation][ACM-sim]  
 - [ACNportal on PyPi][acn_portal_pypi]  
 
@@ -38,6 +38,8 @@ In case the environment doesn't show you need to refresh the list, see [vsc addi
 
 
 ## Versioning
+
+Note: this tool seems to use an old panda's version being:
 
 [pandas python version][pandas-1.1.5]
 
