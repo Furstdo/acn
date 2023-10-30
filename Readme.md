@@ -2,6 +2,17 @@
 
 ## Installation
 
+### GitHub Clone
+
+Clone this repository with Visual Studio Code into your home directory.  
+Open the directory afterwards as new window. Use the following URL  
+
+```
+https://github.com/Fpadt/acn.git
+```
+
+### Conda Environment
+
 In order to be able to execute these jupyter notebooks one needs to setup the conda environment first.
 This can be done with the following line of code, see [Creating an environment from an environment.yml file][conda_yml] for details. 
 
