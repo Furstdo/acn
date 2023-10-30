@@ -13,7 +13,7 @@ Note that after the environment is created it needs to be selected for the jupyt
 
 1. use the selector in the right upper corner of the jupyter notebook
 1. use the **Command Palette**, see [vsc python interpreters][vsc_python_int] for details
-    1. type <CTRL>+<SHIFT>+P 
+    1. type \<CTRL\> + \<SHIFT\> + P 
     1. type ```>Python: Select Interpreter``` 
     1. select ```acn_py39``` from the list
 
