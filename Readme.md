@@ -38,9 +38,11 @@ In case the environment doesn't show you need to refresh the list, see [vsc addi
 
 As we use our own registrated API-key to extract data from ACN-Data using the Python-client one has to set up an ```.env``` file in the workspace with the API-key. 
 
-The file should have the following structure to create the environment variable **API_KEY**.  
+Use the following code in the Terminal (WSL)
 
-```export API_KEY='<API Secret>'```
+```
+echo "export API_KEY=''" > .env
+```
 
 Documentation on API can be found here: [ACN - Data Client][acn_api]
 
