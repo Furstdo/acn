@@ -5,6 +5,10 @@
 In order to be able to execute these jupyter notebooks one needs to setup the conda environment first.
 This can be done with the following line of code, see [Creating an environment from an environment.yml file][conda_yml] for details. 
 
+```
+conda env create -f environment.yml
+```
+
 Note that after the environment is created it needs to be selected for the jupyter notebook by either
 
 1. use the selector in the right upper corner of the jupyter notebook
@@ -15,9 +19,7 @@ Note that after the environment is created it needs to be selected for the jupyt
 
 In case the environment doesn't show you need to refresh the list, see [vsc additional notes][vsc_conda_env]
 
-```
-conda env create -f environment.yml
-```
+
 
 ## Links
 
