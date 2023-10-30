@@ -30,7 +30,20 @@ Note that after the environment is created it needs to be selected for the jupyt
 
 In case the environment doesn't show you need to refresh the list, see [vsc additional notes][vsc_conda_env]
 
+## Setup Secrets
 
+As we use our own registrated API-key to extract data from ACN-Data using the Python-client one has to set up an ```.env``` file in the workspace with the API-key. 
+
+The file should have the following structure to create the environment variable **API_KEY**.  
+
+```export API_KEY='<API Secret>'```
+
+Documentation on API can be found here: [ACN - Data Client][acn_api]
+
+## Run jupyter notebook
+
+1. Open ACN-sim_L0x.ipynb 
+1. execute the notebook
 
 ## Links
 
@@ -46,6 +59,7 @@ In case the environment doesn't show you need to refresh the list, see [vsc addi
 [conda_yml]:       https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file
 [vsc_python_int]:  https://code.visualstudio.com/docs/python/environments#_working-with-python-interpreters
 [vsc_conda_env]:   https://code.visualstudio.com/docs/python/environments#_create-a-conda-environment-in-the-terminal
+[acn_api]:         https://acnportal.readthedocs.io/en/latest/acndata/data_client.html
 
 
 ## Versioning
