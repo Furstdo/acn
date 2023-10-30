@@ -1,6 +1,10 @@
 # ACN
 
-## Installation
+## Installation overview
+
+1. clone repository from GitHub
+1. create conda environment
+1. setup secret in ```.env``` file
 
 ### GitHub Clone
 
